@@ -45,3 +45,23 @@ Would you like to customize the default import alias (@/*)?  Yes
 # -------------> CSS Modules en Next.js 13 <------------
 **BEM CSS**. **BEM CSS es una metodología de nomenclatura para definir las clases en los nodos HTML** del documento. Es decir, es **una manera de nombrar las clases de los nodos de tu HTML para posteriormente atacarlos con CSS de una manera fácil, sencilla y clara**. El objetivo de BEM es dar mucha más **transparencia y claridad en tu estructura HTML y CSS**. BEM te dice cómo se relacionan las clases entre sí, lo que es particularmente útil en secciones complejas del documento. Todas las clases del proyecto pueden encajar con esta filosofía. **BEM** son tres siglas. * **B** de **bloque**. * **E** de **elemento**. * **M** de **modificador**. Un **bloque** es **una sección independiente que tiene significado propio por sí solo**. Contiene todos los nodos HTML de una estructura a la que te estés refiriendo. Un **elemento** son **porciones más pequeñas internas a un bloque**. Se usa para ir dividiendo el bloque en segmentos más pequeños. Un **modificador** sirve para **modificar algunas propiedades de un bloque o elemento**.
 
+# --> blur 
+https://blurred.dev/
+
+# -> Manejo de variables de entorno en Next.js
+1. Las variables de entorno se manejan como de costunbre y se solicitan con el process.env; estas variables siempre son ocultas, si por alguna razopn se quiere exponer una variable de entorno en el cliente => en el .env llamamos la variable con el prefijo `NEXT_PUBLIC_NOMBRE_VARIABLE="nombre variable"` y se usa el componente donde fue llamada como cliente.
+
+# --> Shoppify
+1. shopify.dev -> iniciar tienda como desarrollador -> productos -> cargar productos -> canales de ventas -> configuración de aplicaciones y canales de venta -> desarrollar aplicaciones  -> permitir desarrollar aplicaciones personalizadas -> permitir desarrollo de aplicaciones -> crear una aplicación -> crear aplicación -> permisos (dar permisos) -> credenciales api (instalar) -> el token se muestra una ves (copiar)
+
+==> shopify.parners -> entra a la tienda -> copiar el host -> agregarlo en el .env
+
+
+
+==> entrar a la doc de la tienda => https://shopify.dev/docs/api/admin-rest/2023-10/resources/product#get-products?ids=632910392,921728736 => hacer el fetch con le host y el tokoen el en endpoind dado
+
+# --> Route Grouping en Next.js
+
+1. Son carpetas que evaden la creación de los segmentos de ruta; se crea la carpeta con la siguiente nomenclatura `(nombreCarpeta)` y si está en la raiz del src todo lo que esté dentro como el layout, la page o el routing quedarán el la ruta principal (No es recomendable hacerlo para todo)
+
+# --> Implementando páginas de Not Found y error global
